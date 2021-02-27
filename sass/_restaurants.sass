@@ -1,0 +1,58 @@
+.card
+  background: #FFFFFF
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05)
+  border-radius: 7px
+  overflow: hidden
+  margin-bottom: 30px
+  &-img
+    width: 384px
+    height: 250px
+    object-fit: cover
+  &-text
+    padding: 20px 23px 35px 23px
+  &-heading
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-info
+    display: flex
+    align-items: center
+  &-title
+    margin: 0
+    font-weight: bold
+    font-size: 24px
+    line-height: 32px
+    color: #000000
+  &-tag
+    font-size: 12px
+    line-height: 20px
+    color: #FFFFFF
+    background: #262626
+    border-radius: 2px
+    padding: 1px 8px
+  &s
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    flex-wrap: wrap
+.rating
+  margin-right: 26px
+  font-weight: bold
+  font-size: 18px
+  line-height: 32px
+  color: #FFC107
+.price, .category
+  font-size: 18px
+  line-height: 32px
+  color: #8C8C8C
+.price
+  margin-right: 10px
+  &::after
+    content: ''
+    width: 5px
+    height: 5px
+    background-color: #8C8C8C
+    display: inline-block
+    vertical-align: middle
+    border-radius: 50%
+    margin-left: 10px
